@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "490455315708",
+    "firebase_url": "https://coffeedrinker-a9559.firebaseio.com",
+    "project_id": "coffeedrinker-a9559",
+    "storage_bucket": "coffeedrinker-a9559.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490455315708:android:d5eda4ebaf69e09a",
+        "android_client_info": {
+          "package_name": "br.com.coffeedrinker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "490455315708-qj54mfftpdfi4ec29kud0jqalcj6349p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHmoAA75-q0iIRcPg-2SQ4FG5uWOCXZbU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

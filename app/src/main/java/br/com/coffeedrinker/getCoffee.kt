@@ -5,6 +5,9 @@ import android.support.design.widget.Snackbar
 import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Button
+import android.widget.ImageButton
+import android.widget.Toast
 
 import kotlinx.android.synthetic.main.activity_get_coffee.*
 
@@ -14,6 +17,11 @@ class getCoffee : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_get_coffee)
         setSupportActionBar(toolbar)
+
+        val btn_i_want_coffee = findViewById<ImageButton>(R.id.i_want_coffee)
+        btn_i_want_coffee.setOnClickListener {
+            Toast.makeText(this, "You clicked in the button", Toast.LENGTH_SHORT)
+        }
 
         fab.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
